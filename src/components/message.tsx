@@ -50,7 +50,7 @@ export const Message = ({ message }: Props) => {
           className={`inline-flex rounded space-x-2 items-start p-3 text-white ${
             message.username === (session?.username || session?.user.name)
               ? "bg-[#4a9c6d]"
-              : "bg-white"
+              : "bg-yellow-800"
           } `}
         >
           {message.username !== (session?.username || session?.user.name) && (
