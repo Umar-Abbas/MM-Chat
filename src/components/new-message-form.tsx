@@ -48,11 +48,11 @@ export const NewMessageForm = () => {
         placeholder="Write a message..."
         value={body}
         onChange={(e) => setBody(e.target.value)}
-        className="flex-1 h-12 px-3 rounded bg-[#222226] border border-[#222226] focus:border-[#222226] focus:outline-none text-white placeholder-white"
+        className="flex-1 h-12 px-3 rounded bg-white border border-[#222226] focus:border-[#222226] focus:outline-none text-blue-600 placeholder-white"
       />
       <button
         type="submit"
-        className="bg-[#222226] rounded h-12 font-medium text-white w-24 text-lg border border-transparent hover:bg-[#363739] transition"
+        className="bg-green-700 rounded h-12 font-medium text-white w-24 text-lg border border-transparent hover:bg-[#363739] transition"
         disabled={!body || !session}
       >
         Send
