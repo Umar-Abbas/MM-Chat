@@ -63,6 +63,12 @@ export function Header() {
               >
                 Sign in with GitHub
               </button>
+              <button
+                onClick={() => signIn("google")}
+                className="bg-white/5 rounded h-12 px-6 font-medium text-white text-lg border border-transparent inline-flex items-center"
+              >
+                Sign in with Google
+              </button>
             </div>
           )}
         </div>

@@ -16,7 +16,6 @@ interface Props {
 
 export const Message = ({ message }: Props) => {
   const { data: session } = useSession();
-
   return (
     <div
       className={`flex flex-col relative space-x-1 space-y-1 ${
